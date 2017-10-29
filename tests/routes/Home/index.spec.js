@@ -12,6 +12,6 @@ describe('(Route) Home', () => {
   })
 
   it('Should define a route component', () => {
-    expect(_component.type).to.equal('dfdsaiv')
+    expect(_component.type).to.equal('div')
   })
 })
