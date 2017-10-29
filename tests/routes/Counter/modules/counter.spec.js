@@ -41,7 +41,7 @@ describe('(Redux Module) Counter', () => {
     })
 
     it('Should assign the first argument to the "payload" property.', () => {
-      expect(increment(5)).to.have.property('payload', 5)
+      expect(increment(5)).to.have.property('payload', 6)
     })
 
     it('Should default the "payload" property to 1 if not provided.', () => {
